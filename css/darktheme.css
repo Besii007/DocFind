@@ -1,6 +1,6 @@
 /* ---------------DarkMode--------------- */
 body.dark-mode {
-    background-color: #1e293b;
+    background-color: #1e293b ;
   }
   body.dark-mode #light-btn {
     display: inline-block;
@@ -61,10 +61,10 @@ body.dark-mode {
 
 
   body.dark-mode .doctors{
-    background-color: #0c1729;
+    background-color: #1e293b;
   }
   body.dark-mode .doctor{
-    background-color: #233553;
+    background-color: #0c1729;
   }
   body.dark-mode .doctor .name{
     color: #fff;
@@ -77,6 +77,9 @@ body.dark-mode {
   }
   body.dark-mode .doctor p{
     color: #fff;
+  }
+  body.dark-mode .find {
+    background-color: #1e293b ;
   }
 
 
@@ -151,7 +154,7 @@ body.dark-mode {
 
 
   body.dark-mode .find {
-    background-color: #0c1729;
+    background-color: #1e293b ;
     color: #fff;
   }
   body.dark-mode .search ,
