@@ -1,0 +1,327 @@
+
+.aboutus{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background: 
+    linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(190, 190, 190, 0.521) 100%),
+    url(/images/aboutbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10vh 10vw;
+
+}
+.aboutus h1{
+    font-size: 48px;
+}
+.aboutus h1 span{
+    color: #1e88e5;
+}
+.aboutus p {
+    font-size: 18px;
+    color: #555555;
+}
+
+/* *************** Our Story ****************/
+.ourstory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10vh 10vw;
+}
+.ourstory-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.ourstory-text p{
+    color: #555555;
+    font-weight: 300;
+    width: 40vw;
+}
+.ourstory-pic img{
+    border-radius: 20px;
+    width: 44vw;
+    min-width: 450px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.445);
+}
+
+/* *************** Our Mission ****************/
+.ourmission{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10vh 7vw;
+    flex-wrap: wrap;
+}
+.ourmission-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.ourmission-text p{
+    color: #555555;
+    font-weight: 300;
+    width: 40vw;
+}
+.ourmission-pic img{
+    border-radius: 20px;
+    width: 40vw;
+    min-width: 450px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.445);
+}
+
+/* *************** Our Impact ****************/
+.ourimpact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 7vw 5vh 7vw;
+}
+.ourimpact-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.ourimpact-card{
+    background-color: #f5f9ff;
+    width: 340px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    margin: 0 0 40px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.096);
+}
+.ourimpact-card i{
+    background-color: #3a88fc4d;
+    color: #fff;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 25px;
+}
+.ourimpact-card h2{
+    color: #1e88e5;
+    font-weight: 600;
+}
+.ourimpact-card h3{
+    font-size: 17px;
+    font-weight: 300;
+    color: #555555;
+}
+
+/* *************** Our Leadership ****************/
+
+.ourleadership{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+    padding: 0 7vw 5vh 7vw;
+    width: 100%;
+}
+.ourleadership-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.ourleadership-text{
+    text-align: center;
+}
+.ourleadership-text p{
+    color: #555555;
+    font-weight: 300;
+}
+.ourleadership-card{
+    width: 390px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);
+}
+.ourleader-image{
+    background-image: url(/images/besimlogo.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    margin-left: 5px;
+    width: 380px;
+    height: 400px;
+}
+
+.leader-info{
+    padding: 10px;
+    width: 390px;
+    background: #fff;
+    margin-top: -100px;
+    z-index: 50;
+}
+.ourleader-role{
+    font-size: 16px;
+    font-weight: 400;
+}
+.ourleader-info{
+    font-weight: 300;
+    color: #555555;
+}
+
+/* *************** Our Healthcare Services ****************/
+
+.ourhealthcare{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7vw 5vh 7vw;
+}
+.ourhealthcare-text{
+    text-align: center;
+}
+.ourhealthcare-text p{
+    color: #555555;
+    font-weight: 300;
+}
+.ourhealthcare-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.ourhealth-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 380px;
+    padding: 20px 10px 30px 10px;
+    background-color: #f5f9ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.096);
+    border-radius: 15px;
+}
+.ourhealth-card p{
+    color: #555555;
+    font-weight: 300;
+    text-align: center;
+}
+.ourhealth-card i{
+    background-color: #3a88fc4d;
+    color: #fff;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 25px;
+}
+.ourhealth-card h2{
+    color: #1e88e5;
+    font-weight: 600;
+}
+
+/* *************** Our Healthcare Network ****************/
+.ournetwork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7vw 5vh 7vw;
+    text-align: center;
+}
+.ournetwork-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.network-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 380px;
+    padding: 10px 10px 30px 10px;
+    background-color: #f5f9ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.096);
+    border-radius: 15px;
+}
+.network-card img{
+    width: 370px;
+    border-radius: 15px;
+}
+.network-card p{
+    color: #555555;
+    font-weight: 300;
+    text-align: center;
+}
+.network-icon {
+    width: 370px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: start;
+    color: #1e88e5;
+    padding: 15px;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    .ourmission{
+        flex-direction: column;
+        padding: 5vh 0;
+    }
+    .ourstory{
+        flex-direction: column-reverse;
+        padding: 5vh 0;
+    }
+    .ourstory-text{
+        align-items: center;
+    }
+    .ourstory-text p{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .ourmission-text p{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .ourmission-text{
+        align-items: center;
+    }
+    .ourmission-pic img{
+        border-radius: 20px;
+        width: 70vw;
+        min-width: none;
+    }
+    .ourstory-pic img{
+        border-radius: 20px;
+        width: 70vw;
+        min-width: none;
+    }
+    .ourimpact-cards{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

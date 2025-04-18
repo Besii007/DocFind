@@ -1,0 +1,341 @@
+/* ---------------DarkMode--------------- */
+body.dark-mode {
+    background-color: #1e293b;
+  }
+  body.dark-mode #light-btn {
+    display: inline-block;
+    color: #ffffff;
+  }
+  
+  body.dark-mode nav {
+    background-color: #1e293b;
+  }
+  body.dark-mode #dark-btn {
+    display: none;
+  }
+  body.dark-mode .links ul li a{
+    color: #ffffff;
+  }
+  body.dark-mode .btn{
+    color: #ffffff;
+  }
+  body.dark-mode .mobile-link li a{
+    color: #ffffff;
+  }
+
+
+
+  body.dark-mode .first{
+    background: 
+  linear-gradient(90deg, #1e293be1,#1e293b36),
+  url(/images/f9d6d86b0668615e6dbf7c4ba9d17391.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+  body.dark-mode .first h1{
+    color: #ffffff;
+  }
+  body.dark-mode .first p{
+    color: #ffffff;
+  }
+
+
+
+  body.dark-mode .card{
+    background-color: #233553;
+  }
+  body.dark-mode .card i{
+    background-color: #1e3a8a;
+  }
+  body.dark-mode .card h1{
+    color: #fff;
+  }
+  body.dark-mode .card p{
+    color: #c0c0c0;
+  }
+  body.dark-mode .card button{
+    background-color: transparent;
+  }
+
+
+
+  body.dark-mode .doctors{
+    background-color: #0c1729;
+  }
+  body.dark-mode .doctor{
+    background-color: #233553;
+  }
+  body.dark-mode .doctor .name{
+    color: #fff;
+  }
+  body.dark-mode .doctor .profesion{
+    color: #c0c0c0;
+  }
+  body.dark-mode .doctor .exprerience{
+    color: #8b8b8b;
+  }
+  body.dark-mode .doctor p{
+    color: #fff;
+  }
+
+
+
+
+  body.dark-mode .wework-text i{
+    background-color: #1e3a8a;
+  }
+  body.dark-mode .wework-text h1{
+    color: #fff;
+  }
+  body.dark-mode .wework-text h2{
+    color: #c0c0c0;
+  }
+  body.dark-mode .wework-text button{
+    background-color: transparent;
+  }
+  body.dark-mode .howtext h1{
+    color: #fff;
+  }
+  body.dark-mode .howtext p{
+    color: #c0c0c0;
+  }
+
+
+  body.dark-mode .ourpacient{
+    background: #0c1729;
+  }
+  body.dark-mode .ourpacient h1{
+    color: #fff;
+  }
+  body.dark-mode .ourpacient p{
+    color: #8b8b8b;
+  }
+  body.dark-mode .ourpacient h2{
+    color: #c0c0c0;
+  }
+  body.dark-mode .pacients-card{
+    background: #233553;
+  }
+
+  body.dark-mode .frequently{
+    color: #fff;
+  }
+  body.dark-mode .question{
+    background-color: #0c1729;
+  }
+  body.dark-mode .toggle-btn{
+    color: #fff;
+  }
+
+  body.dark-mode .footer{
+    background-color: #0c1729;
+  }
+  body.dark-mode .footer li a {
+    color: #84a5ff;
+  }
+  body.dark-mode .footer-container p {
+    color: #84a5ff;
+  }
+  body.dark-mode .social-icons a{
+    background-color: #1e3a8a;
+  }
+  body.dark-mode .footer i {
+    color: #fff;
+  }
+
+
+  body.dark-mode .mobile-link{
+    background-color: #1e293b;
+  }
+
+
+  body.dark-mode .find {
+    background-color: #0c1729;
+    color: #fff;
+  }
+  body.dark-mode .search ,
+  body.dark-mode .search input{
+    background-color: #233553;
+    color: #fff;
+  }
+  body.dark-mode .find-advance{
+    background-color: #233553;
+    color: #fff;
+  }
+  body.dark-mode .doctorsshow{
+    color: #fff;
+  }
+  body.dark-mode .doctorsshow h3{
+    color: #c0c0c0;
+  }
+  body.dark-mode .doctor-card{
+    background-color: #0c1729;
+    color: #fff;
+  }
+  body.dark-mode .doctor-card p{
+    color: #bdbdbd;
+  }
+  body.dark-mode .doctor-card .slots span{
+    background-color: #1e293b;
+  }
+  body.dark-mode .page-btn{
+    background-color: #233553;
+    color: #fff;
+    border: 1px solid #4d4d4d;
+  }
+  body.dark-mode .page-btn:hover {
+    background: #37517e;
+  }
+  body.dark-mode .page-btn.active{
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+
+
+  body.dark-mode .labels select,
+  body.dark-mode .labels input{
+    background-color: #1e293b;
+    color: #c9c9c9;
+  }
+
+
+
+  body.dark-mode .aboutus{
+    background: 
+  linear-gradient(90deg, #1e293be1,#1e293b54),
+  url(/images/f9d6d86b0668615e6dbf7c4ba9d17391.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  }
+  body.dark-mode .aboutus p{
+  color: #c0c0c0;
+  }
+  body.dark-mode .ourstory{
+    color: #fff;
+  }
+  body.dark-mode .ourstory p{
+    color: #c0c0c0;
+  }
+  body.dark-mode .ourmission{
+    color: #fff;
+  }
+  body.dark-mode .ourmission p{
+    color: #c0c0c0;
+  }
+  body.dark-mode .ourimpact {
+    color: #fff;
+  }
+  body.dark-mode .ourimpact-card{
+    background-color: #233553;
+  }
+  body.dark-mode .ourimpact-card h3{
+    color: #c0c0c0;
+  }
+  body.dark-mode .ourleadership{
+    color: #fff;
+  }
+  body.dark-mode .ourleadership p{
+    color: #c0c0c0;
+  }
+  body.dark-mode .leader-info{
+    background-color: #1e293b;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);
+  }
+  body.dark-mode .ourhealthcare{
+    color: #fff;
+  }
+  body.dark-mode .ourhealthcare p {
+    color: #c0c0c0;
+  }
+  body.dark-mode .ournetwork{
+    color: #fff;
+  }
+  body.dark-mode .ournetwork p {
+    color: #c0c0c0;
+  }
+  body.dark-mode .ourhealth-card {
+    background-color: #233553;
+  }
+  body.dark-mode .network-card {
+    background-color: #233553;
+  }
+
+
+  body.dark-mode .scheduletext h1{
+    color: #fff;
+  }
+  body.dark-mode .scheduletext{
+    background-color: #0c1729;
+  }
+  body.dark-mode .scheduletext p{
+    color: #c0c0c0;
+  }
+  body.dark-mode .schedulebox {
+    background-color: #0c1729;
+  }
+  body.dark-mode .schedule-steps {
+    background-color: #0c1729;
+    color: #fff;
+  }
+  body.dark-mode .schedule-steps h1{
+    background-color: #233553;
+  }
+  body.dark-mode .schedule-steps .active h1{
+    background-color: #1e88e5;
+    color: #fff;
+}
+body.dark-mode .schedule-first label ,
+body.dark-mode .schedule-second label ,
+body.dark-mode .schedule-third label ,
+body.dark-mode .schedule-fourth label {
+  color: #f0f0f0;
+}
+body.dark-mode .schedule-first h1 ,
+body.dark-mode .schedule-second h1 ,
+body.dark-mode .schedule-third h1 ,
+body.dark-mode .schedule-fourth h1{
+  color: #fff;
+}
+body.dark-mode .first-inp input , 
+body.dark-mode .second-inp select ,
+body.dark-mode .third-inp input ,
+body.dark-mode .fourth-inp textarea{
+  background-color: #233553;
+  color: #c0c0c0;
+}
+body.dark-mode .vote span ,
+body.dark-mode .fourth-terms span {
+  color: #c0c0c0;
+}
+
+
+body.dark-mode .doctor-container{
+  background-color: #233553;
+}
+body.dark-mode .doctorri {
+  background-color: #37517e;
+}
+body.dark-mode .doctorri .name{
+  color: #fff;
+}
+body.dark-mode .doctorri .specialty{
+  color: #c9c9c9;
+}
+body.dark-mode .doctor-container h2{
+  color: #fff;
+}
+
+
+body.dark-mode .helpful-text{
+  background-color: #37517e;
+}
+body.dark-mode .helpful-text h2{
+  color: #fff;
+}
+body.dark-mode .tip {
+  color: #fff;
+}
