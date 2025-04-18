@@ -9,8 +9,12 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
+}
+html, body {
+  margin: 0;
+  padding: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 
 nav {
@@ -217,8 +221,9 @@ nav {
 }
 
 .doctorslist-wrapper {
-  overflow: hidden;
   width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .doctorslist {
