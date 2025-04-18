@@ -21,6 +21,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 10vw;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.089);
   z-index: 999;
 }
