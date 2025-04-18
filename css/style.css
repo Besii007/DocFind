@@ -582,8 +582,11 @@ nav {
 /* ========== Responsive ========== */
 @media only screen and (max-width: 770px) {
   nav{
+    position: fixed;
     width: 100%;
     margin-top: 0;
+    top: 0;
+    left: 0;
   }
   .links ul {
     display: none;
