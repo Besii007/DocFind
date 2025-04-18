@@ -31,13 +31,3 @@ lightBtn.addEventListener("click", () => {
   localStorage.setItem("theme", "light");
 });
 
-// Only apply system changes if no manual preference is saved
-if (!savedTheme) {
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-    if (e.matches) {
-      body.classList.add("dark-mode");
-    } else {
-      body.classList.remove("dark-mode");
-    }
-  });
-}
